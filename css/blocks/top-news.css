@@ -1,0 +1,42 @@
+
+.news__top {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.top__list{
+    padding: 0;
+}
+
+.top__item{
+    margin-bottom: 20px;
+}
+
+.top__item:last-child{
+    margin-bottom: 0;
+}
+
+.top__link, .top__cover{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+
+.top__link img{
+    max-width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.top__cover{
+    position: absolute;
+    background-color: #ffffff96;
+    width: 160px;
+    z-index: 3;   
+}
+
+.top__cover:hover{
+    display: none;
+}
