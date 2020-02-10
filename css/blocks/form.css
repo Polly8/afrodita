@@ -1,9 +1,11 @@
 
+.form-wrap{
+    margin-bottom: 60px;
+}
 
 .form{
     background-color: #f4f4f4;
     padding: 60px 10%;
-    margin-bottom: 60px;
     font-size: 14px;
 }
 

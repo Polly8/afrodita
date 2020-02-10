@@ -5,10 +5,17 @@
 .apps__list{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 110px;
+    justify-content: flex-start;
     margin: 0;
     padding: 8px 0;
+}
+
+.apps__item {
+    margin-right: 10px;
+}
+
+.apps__item:last-child{
+    margin-right: 0;
 }
 
 .apps__list .apps__icon{
