@@ -4,10 +4,16 @@ html{
     font-size: 12px;
     font-weight: 400;
     color: #262424;
+    height: 100%;
 }
 
 body{
     margin: 0;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 .container{
@@ -15,15 +21,37 @@ body{
     margin: 0 auto;
 }
 
+.container--small{
+    width: 880px;
+    margin: 0 auto;
+}
+
+
+.container--smallest{
+    width: 700px;
+    margin: 0 auto;
+}
+
+
 .wrapper{
     overflow: hidden;
     min-width: 1100px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__content{
+    flex: 1;
 }
 
 a{
     text-decoration: none;
 }
 
+ul{
+    padding: 0;
+}
 
 ul li{
     list-style-type: none;
@@ -45,6 +73,10 @@ h3{
     line-height: 2em;
     letter-spacing: 0.2em;
     margin-bottom: 8px;
+}
+
+p{
+    margin: 0;
 }
 
 .grey{

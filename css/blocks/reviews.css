@@ -1,15 +1,16 @@
-.news {
-    padding: 50px 0;
+
+
+.reviews{
+    margin-bottom: 61px;
 }
 
-.news__content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 38px;
+
+.main-reviews__title{
+    text-align: start;
+    margin-bottom: 30px;
 }
 
-.news__item{
+.reviews__item{
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -20,41 +21,43 @@
     margin-bottom: 30px;
 }
 
-.news__item:last-child{
+
+.reviews__item:last-child{
     margin-bottom: 0;
 }
 
-.news__item:last-child{
+.reviews__item:last-child{
     border-bottom: none;
 }
 
 
-.news__img {
+.reviews__img {
     height: 160px;
     width: 160px;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.news__text{
+.reviews__text{
     width: 700px;
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-.text-news__date{
+.text-reviews__date{
     font-size: 14px;
     color: #6e6e6e;
     margin-bottom: 8px;
 }
 
-.text-news__title{
+.text-reviews__name{
     font-size: 18px;
 }
 
-.news__text p{
+.reviews__text p{
     font-size: 18px;
     color: #262424;
     line-height: 1.5em;
     margin: 14px 0;
 }
+

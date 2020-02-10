@@ -1,16 +1,12 @@
 .header{
     background-color: #1a1b1c;
+    padding: 21px 0 17px;
     margin-bottom: 6.5em;
 }
 
 .header-container{
-    position: relative;
-    height: 77px;
-}
-
-.header__logo{
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

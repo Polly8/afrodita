@@ -1,0 +1,90 @@
+.main-services__title{
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.services ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services__item{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 43px);
+    font-size: 14px;
+    margin-bottom: 47px;
+}
+
+
+.services__img{
+    width: 250px;
+    height: 155px;
+    overflow: hidden;
+    border-radius: 3px;
+    position: relative;  
+}
+
+.services__img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+
+.services__img:hover{
+    cursor: pointer;
+}
+
+.services__img:before{
+    content: " ";
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #00000085;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__img-fitness:before{
+    content: "Фитнес";
+}
+
+.services__img-nutritionist:before{
+    content: "Диетолог";
+}
+
+.services__img-yoga:before{
+    content: "Йога";
+}
+
+.services__img-loops:before{
+    content: "Петли ТРХ";
+}
+
+.services__img-crossfit:before{
+    content: "Кроссфит";
+}
+
+.services__img-swimming:before{
+    content: "Бассейн";
+}
+
+.services__img:hover:before{
+    display: none;
+}
+
+.services__headline{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: none;
+    letter-spacing: normal;
+}
