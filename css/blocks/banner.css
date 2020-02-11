@@ -1,0 +1,19 @@
+
+.banner{
+    background-color: #1a1b1c;
+    background-image: url(../images/pattern.png);
+    background-repeat: repeat-x;
+    color: #c2c2c2;
+    padding: 34px 0;
+    margin-bottom: 60px;
+}
+
+.banner p{
+    font-size: 18px;
+    line-height: 1.9em;
+}
+
+.banner span{
+    color: #e1942a;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.apps__title{
+    font-weight: bold;
+}
+
+.apps__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.apps__item {
+    margin-right: 10px;
+}
+
+.apps__item:last-child{
+    margin-right: 0;
+}
+
+.apps__list .apps__icon{
+    height: 20px;
+    width: 20px;
+    background-color: #cfcfcf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apps__list .apps__icon:hover{
+    background-color: #e1942a;
+}

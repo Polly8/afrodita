@@ -1,0 +1,75 @@
+.nav__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 326px;
+}
+
+.nav__item a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__link{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.nav__link:hover{
+    color: #e1942a;
+}
+
+.nav__link:before{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background: left center / contain no-repeat;
+}
+
+.nav__item-icon-main .nav__link:before{
+    background-image: url('../../images/main-icon.png');
+}
+
+.nav__item-icon-main .nav__link:hover:before{
+    background-image: url('../../images/main-icon-hover.png');
+}
+
+.nav__item-icon-feed .nav__link:before{
+    background-image: url('../../images/feed-icon.png');
+}
+
+.nav__item-icon-feed .nav__link:hover:before{
+    background-image: url('../../images/feed-icon-hover.png');
+}
+
+.nav__item-icon-service .nav__link:before{
+    background-image: url('../../images/service-icon.png');
+}
+
+.nav__item-icon-service .nav__link:hover:before{
+    background-image: url('../../images/service-icon-hover.png');
+}
+
+.nav__item-active .nav__link{
+    color: #e1942a;
+}
+
+.nav__item-active.nav__item-icon-main .nav__link:before{
+    background-image: url('../../images/main-icon-hover.png');
+}
+
+.nav__item-active.nav__item-icon-feed .nav__link:before{
+    background-image: url('../../images/feed-icon-hover.png');
+}
+
+
+.nav__item-active.nav__item-icon-service .nav__link:before{
+    background-image: url('../../images/service-icon-hover.png');
+}

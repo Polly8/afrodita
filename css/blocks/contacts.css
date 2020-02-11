@@ -1,0 +1,20 @@
+.contacts{
+    text-align: right;
+}
+
+.contacts__phone a{
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.contacts__schedule a{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #e1942a;
+}
+
+.contacts__schedule a:hover{
+    color: #fff;
+}
