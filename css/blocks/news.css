@@ -1,5 +1,5 @@
 .news {
-    padding: 50px 0;
+    padding: 0 0 50px;
 }
 
 .news__content{
@@ -37,7 +37,7 @@
 }
 
 .news__text{
-    width: 700px;
+    width: 610px;
     margin-left: 20px;
     font-family: 'Roboto', sans-serif;
 }
@@ -58,3 +58,4 @@
     line-height: 1.5em;
     margin: 14px 0;
 }
+

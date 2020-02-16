@@ -17,12 +17,18 @@ body{
 }
 
 .container{
-    width: 1060px;
+    width: 830px;
     margin: 0 auto;
 }
 
+.container--bigger{
+    width: 1160px;
+    margin: 0 auto;
+    
+}
+
 .container--small{
-    width: 880px;
+    width: 860px;
     margin: 0 auto;
 }
 
@@ -35,7 +41,7 @@ body{
 
 .wrapper{
     overflow: hidden;
-    min-width: 1100px;
+    min-width: 1160px;
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -61,9 +67,8 @@ h2{
     font-size: 49px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center;
     display: inline-block;
-    margin: 0 auto 50px;
+    margin: 0 auto 35px;
     width: 100%;
 }
 
@@ -82,3 +87,11 @@ p{
 .grey{
     color: #656464;
 }
+
+
+.main-row .container--bigger{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
