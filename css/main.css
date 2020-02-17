@@ -22,44 +22,8 @@
 @import url('./blocks/banner.css');
 @import url('./blocks/form.css');
 
+@import url('./blocks/switch.css');
 @import url('./blocks/out.css');
 @import url('./blocks/animations.css');
 
 
-.switch-controls__radio{
-    display: none;
-}
-
-.switch-controls__visible{
-    width: 20px;
-    height: 20px;
-    border: 1px solid #c9c9c9;
-    background-color: #f9f9f9;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px;
-}
-
-.switch-controls__visible-fill{
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: #e1942a;
-    display: none;
-}
-
-
-.switch-controls__radio:checked ~ .switch-controls__visible {
-    border-color: #e1942a;
-}
-
-.switch-controls__radio:checked ~ .switch-controls__visible 
-.switch-controls__visible-fill {
-    display: block;
-}
-
-.switch-controls__radio:checked ~ .switch-controls__elem-title {
-    color: #e1942a;
-}
