@@ -13,7 +13,7 @@
 .services__item{
     display: flex;
     flex-direction: column;
-    width: calc(100% / 3 - 43px);
+    width: calc(100% / 3 - 30px);
     font-size: 14px;
     margin-bottom: 47px;
 }
@@ -52,6 +52,8 @@
     font-weight: bold;
     align-items: center;
     justify-content: center;
+    transition: .5s;
+    opacity: 1;
 }
 
 .services__img-fitness:before{
@@ -79,7 +81,7 @@
 }
 
 .services__img:hover:before{
-    display: none;
+    opacity: 0;
 }
 
 .services__headline{

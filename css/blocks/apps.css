@@ -1,11 +1,12 @@
 .apps__title{
     font-weight: bold;
+    font-size: 14px;
 }
 
 .apps__list{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     margin: 0;
     padding: 8px 0;
 }
@@ -21,13 +22,43 @@
 .apps__list .apps__icon{
     height: 20px;
     width: 20px;
-    background-color: #cfcfcf;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    position: relative;
+    transition: .3s;
 }
 
 .apps__list .apps__icon:hover{
     background-color: #e1942a;
+}
+
+.apps__list .apps__icon:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);    
+}
+
+.apps__list .apps__icon-vk:after{
+    width: 12px; height: 7px;
+    background: url('../../images/css_sprites.png') -73px -82px;
+}
+
+.apps__list .apps__icon-fb:after{
+    width: 6px; height: 13px;
+    background: url('../../images/css_sprites.png') -129px -10px;
+}
+
+.apps__list .apps__icon-twitter:after{
+    width: 11px; height: 9px;
+    background: url('../../images/css_sprites.png') -42px -82px;
+}
+
+.apps__list .apps__icon-mail:after{
+    width: 12px; height: 9px;
+    background: url('../../images/css_sprites.png') -10px -82px;
 }
